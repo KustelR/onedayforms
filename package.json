@@ -10,6 +10,7 @@
     "prettier-watch": "npx onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
   },
   "dependencies": {
+    "mongoose": "^8.16.2",
     "nanoid": "^5.1.5",
     "next": "15.3.5",
     "react": "^19.0.0",
