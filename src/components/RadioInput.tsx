@@ -1,6 +1,6 @@
 export interface RadioInputProps {
   name: string;
-  legend: string;
+  label: string;
   options: RadioOption[];
 }
 
@@ -11,7 +11,7 @@ export interface RadioOption {
 }
 
 export default function RadioInput(props: RadioInputProps) {
-  const { name, options, legend } = props;
+  const { name, options, label: legend } = props;
   return (
     <fieldset className="space-x-2">
       <legend>{legend}</legend>
