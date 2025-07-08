@@ -52,7 +52,7 @@ export default async function getForm(id: string): Promise<SerializedForm> {
         type: "radio",
         props: {
           name: "radio_test",
-          legend: "What is your favorite animal?",
+          label: "What is your favorite animal?",
           options: [
             { id: "cat", label: "Cat", value: "cat" },
             { id: "dog", label: "Dog", value: "dog" },
